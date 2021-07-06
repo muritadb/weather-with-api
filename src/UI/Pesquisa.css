@@ -1,6 +1,7 @@
 
 .container-search {
     display: flex;
+    position: relative;
   
   }
   
@@ -13,11 +14,11 @@
     
   }
   
-  .container-search button {
+  .container-search_btn {
     border-radius: 0 50px 50px 0;
     border-style: none;
     padding: 5px;
-    display: flex;
+    
     align-content: center;
     justify-content: center;
     cursor: pointer;

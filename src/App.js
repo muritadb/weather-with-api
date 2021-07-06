@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="container">
       <h1>Previsão do Tempo</h1>
+
       <Pesquisa />
       <Capitais />
     </div>
