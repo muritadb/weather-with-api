@@ -10,4 +10,12 @@ com base na pesquisa do usuario.
 =======
 Criando uma aplicação com React que consome uma API externa para mostrar previsões do tempo 
 com base na pesquisa do usuario
->>>>>>> 85cdd7d553e63787ea53b5bc45797cf0db47f06d
+
+## Dificuldades no Projeto
+    * a comunicação com a API
+    * problema com o CORS(mecanismo de segurança para comunicação entre navegadores)
+    
+    
+## Itens Restantes
+
+    *Falta implementar o componente do Modal, que retorna as informações da cidade pesquisada
