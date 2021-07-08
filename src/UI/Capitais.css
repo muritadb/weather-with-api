@@ -1,9 +1,8 @@
 .container-capitais {
     height: 220px;
-    width: 420px;
+    width: 300px;
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
     
    border-top: 1px solid white;
     
@@ -11,6 +10,7 @@
 
 .container-capitais h2{
     color: white;
-
+    display: flex;
+    justify-content: center;
 
 }

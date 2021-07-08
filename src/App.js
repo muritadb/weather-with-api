@@ -7,6 +7,8 @@ import axios from 'axios';
 
 
 
+
+
 function App() {
   const [isOpen, setIsOpen] = useState(false); //estado para fechar janela
   const [searchCity, setSearchCity] = useState(''); //estado que busca a cidade no input

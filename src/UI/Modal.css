@@ -1,22 +1,82 @@
 .modal {
-    position: relative;
     display: flex;
-    height: 250px;
-    width: 300px;
-    border: 1px solid black;
+    flex-direction: column;
+    position: relative;
 
+    box-sizing: border-box;
+    
+    width: 300px;
+    background-color: wheat;
+    color: #5f6163;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid orangered;
+    margin-bottom: 10px;
 }
 
-.close {
+
+button.close {
     position: absolute;
     top: 5px;
     right: 5px;
     
-    height: 35px;
-    width: 35px;
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 
-    
+}
+
+.modal p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.modal h1 {
+    margin: 10px 0;
+    color: #5f6163;
+}
+
+.modal spam {
+    font-size: 12px;
+}
+
+
+/************************************/
+.modal-info {
+    display: flex;
+}
+
+.modal-temp{
+
+    margin-right: 15px;
+    width: 80px;
+    color: orangered;
+}
+
+
+/************************************/
+
+.modal hr {
+    margin: 10px 0;
+    padding: 0;
+    border: none;
+    height: 1px;
+    width: 90%;
+    background-color: orangered;
+}
+
+
+
+
+
+/************************************/
+
+
+
+
+.modal-week {
+    display: flex;
 }
